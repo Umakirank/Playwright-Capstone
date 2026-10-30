@@ -1,0 +1,9 @@
+{
+  "searches": [
+    { "term": "jeans", "minResults": 1, "nameContains": "jeans" },
+    { "term": "tshirt", "minResults": 1 },
+    { "term": "top", "minResults": 1 },
+    { "term": "zzzz-no-such-product", "minResults": 0, "expectEmpty": true }
+  ],
+  "mock": { "originalName": "Blue Top", "mockedName": "MOCKED PRODUCT" }
+}

@@ -1,0 +1,8 @@
+{
+  "_comment": "Known critical accessibility defects found on automationexercise.com. Reported to the client; the suite fails only on NEW violations (regression gate). Remove an entry once the client fixes it.",
+  "knownIssues": [
+    { "rule": "button-name", "target": "#subscribe", "note": "Footer newsletter button is icon-only, no accessible name" },
+    { "rule": "button-name", "target": "#submit_search", "note": "Search button is icon-only, no accessible name" },
+    { "rule": "label", "target": "input[type=\"file\"]", "note": "Contact Us file upload input has no label" }
+  ]
+}

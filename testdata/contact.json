@@ -1,0 +1,9 @@
+{
+  "valid": {
+    "name": "QA Tester",
+    "email": "qa.tester@example.com",
+    "subject": "Order enquiry",
+    "message": "Hello team, this is an automated Contact Us validation message."
+  },
+  "invalidEmails": ["plainaddress", "user@", "@domain.com"]
+}
